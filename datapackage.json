@@ -1,5 +1,5 @@
 {
-    "description": "Country, regional and world GDP in current US Dollars ($). Regional means collections of countries e.g. Europe & Central Asia. Data is sourced from the World Bank and turned into a standard normalized CSV.",
+    "description": "Numbers of search results on baidu.com when querying dictionary entries from CC-CEDICT.",
     "keywords": [
         "CEDICT",
         "corpus",
@@ -10,7 +10,7 @@
         "Baidu",
         "search engine"
     ],
-    "last_updated": "2021-03-10",
+    "last_updated": "2022-08-08",
     "licenses": [
         {
             "name": "CC-BY-SA-3.0",
