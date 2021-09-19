@@ -1,0 +1,53 @@
+{
+    "description": "Country, regional and world GDP in current US Dollars ($). Regional means collections of countries e.g. Europe & Central Asia. Data is sourced from the World Bank and turned into a standard normalized CSV.",
+    "keywords": [
+        "CEDICT",
+        "corpus",
+        "frequency",
+        "dictionary",
+        "Mandarin",
+        "Chinese",
+        "Baidu",
+        "search engine"
+    ],
+    "last_updated": "2021-03-10",
+    "licenses": [
+        {
+            "name": "CC BY-SA 3.0",
+            "path": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
+            "title": "Creative Commons Attribution-ShareAlike 3.0 Unported"
+        }
+    ],
+    "name": "result-count",
+    "resources": [
+        {
+            "name": "result-count",
+            "path": "result_count.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "query",
+                        "type": "string"
+                    },
+                    {
+                        "name": "result_count",
+                        "type": "number"
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": [
+        {
+            "name": "CC-CEDICT",
+            "path": "https://cc-cedict.org/wiki/",
+            "title": "CC-CEDICT Wiki"
+        },{
+            "name": "百度",
+            "path": "https://www.baidu.com/",
+            "title": "Baidu"
+        }
+    ],
+    "title": "Baidu search result counts for entries from CC-CEDICT",
+    "version": "1.0"
+}
