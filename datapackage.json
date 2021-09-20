@@ -13,7 +13,7 @@
     "last_updated": "2021-03-10",
     "licenses": [
         {
-            "name": "CC BY-SA 3.0",
+            "name": "CC-BY-SA-3.0",
             "path": "https://creativecommons.org/licenses/by-sa/3.0/legalcode",
             "title": "Creative Commons Attribution-ShareAlike 3.0 Unported"
         }
@@ -31,7 +31,7 @@
                     },
                     {
                         "name": "result_count",
-                        "type": "number"
+                        "type": "integer"
                     }
                 ]
             }
