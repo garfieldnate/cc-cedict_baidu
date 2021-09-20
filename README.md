@@ -19,6 +19,22 @@ My original purpose for collecting this data was to provide rough frequency stat
 * All searches were done in traditional characters, but Baidu also provides results with simplified characters, so we are relying on their automated conversion and inherit any potential issues from it.
 * Baidu complies with Chinese law by heavily censoring articles it presents, which likely reduces or even eliminates results for certain entries.
 
+## Example Data Package Usage
+
+I've provided a `datapackage.json` for convenience. To retrieve and load the data in python:
+
+* `pip install datapackage`
+
+```python
+    $ python
+    >>> from datapackage import Package
+    >>> package = Package('https://raw.githubusercontent.com/garfieldnate/cc-cedict_baidu/master/datapackage.json')
+    >>> resource = package.get_resource('result-count')
+    >>> data = resource.read(keyed=True)
+    >>> data[10000]
+    {'query': '周報', 'result_count': 610000}
+```
+
 ## CC-CEDICT Version
 
 The dictionary data was downloaded on 2021-01-28.
