@@ -24,14 +24,17 @@
             "name": "result-count",
             "path": "result_count.csv",
             "schema": {
+                "primaryKey": "query",
                 "fields": [
                     {
                         "name": "query",
-                        "type": "string"
+                        "type": "string",
+                        "required": true
                     },
                     {
                         "name": "result_count",
-                        "type": "integer"
+                        "type": "integer",
+                        "required": true
                     }
                 ]
             }
